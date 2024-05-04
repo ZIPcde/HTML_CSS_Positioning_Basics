@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy-bold";
+}
+
+/* Fonts exports */
+@font-face {
+    font-family: "gilroy-bold";
+    src: url(Gilroy/gilroy-bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "gilroy-medium";
+    src: url(Gilroy/gilroy-medium.ttf);
+  }
+
+/*  */
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* landing (first display)*/
+.landing {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;    
+    width: 100%;
+    height: 700px;
+}
+
+.landing_header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 1170px;
+    height: 40px;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 137px;
+    height: 40px;
+}
+
+.logo_text span {
+    font-family: "gilroy-bold";
+    font-size: 24px;
+}
+
+.grow_be2 {
+    color: #F25822;
+}
+
+.tagline {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 88px;
+    height: 30px;
+}
+
+.header_nav {
+    max-width: 687px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-left: 346px;
+}
+
+.header_nav__anchor1 {
+    color: #F25822;
+    margin-right: 34px;
+    font-size: 12px;
+}
+
+.header_nav a {
+    text-decoration: none;
+  }
+
+.header_nav__anchor {
+    margin-right: 17px;
+    margin-left: 17px;
+    font-size: 12px;
+}
+
+.header_nav__btn {
+    width: 120px;
+    height: 40px;
+    background-color: #F25822;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    margin-left: 34px;
+}
+
+.landing_top {
+    display: flex;
+    justify-content: center; 
+    margin-top: 84px; 
+}
+
+.landing_top__info {
+    margin-top: 59px;
+    width: 535px;
+    height: 374px;
+}
+
+.landing_top__text-h3 {
+    font-size: 60px;
+}
+
+.landing_top__text-p {
+    font-size: 20px;
+    font-family: "gilroy-medium";
+    color: #888888;
+}
+
+.landing_top__btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.landing_top__btn {
+    width: 120px;
+    height: 40px;
+    background-color: #F25822;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    margin-right: 27px;
+}
+
+.landing_top__btn2 {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    
+}
