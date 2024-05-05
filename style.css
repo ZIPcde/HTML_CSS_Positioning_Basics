@@ -9,10 +9,20 @@
     font-family: "gilroy-bold";
     src: url(Gilroy/gilroy-bold.ttf);
   }
+
+  @font-face {
+    font-family: "gilroy-sm";
+    src: url(Gilroy/gilroy-semibold.ttf);
+  }
   
   @font-face {
     font-family: "gilroy-medium";
     src: url(Gilroy/gilroy-medium.ttf);
+  }
+
+  @font-face {
+    font-family: "gilroy-regular";
+    src: url(Gilroy/gilroy-regular.ttf);
   }
 
 /*  */
@@ -255,6 +265,14 @@
     height: 291px;
     margin-top: 100px;
     margin-bottom: 100px;
+    padding-left: 30px;
+    padding-top: 40px;
+    
+}
+
+.feautures_info__content.shadow {
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .feautures_img__holder {
@@ -290,7 +308,6 @@
 }
 
 .feautures_info__content-img {
-    opacity: 1;
     position: absolute;
     top: 22px;
     left: 22px;
@@ -298,10 +315,13 @@
 
 .feautures_info__content-h3 {
     font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 17px;
 }
 
 .feautures_info__content-p {
     font-size: 15px;
+    margin-bottom: 25px;
 }
 
 .feautures_info__content-a {
@@ -312,5 +332,225 @@
 /* services */
 
 .services {
+    display: flex;
+    justify-content: center;
+background-color: #FAFAFA;
+width: 100%;
+height: 919px;
+}
 
+.services_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 682px;
+    height: 123px;
+    margin-top: 92px;
+
+}
+
+.services_header h3 {
+    font-size: 45px;
+}
+
+.services_header p {
+    font-size: 16px;
+    color:#666666;
+    font-family: "gilroy-regular";
+    text-align: center;
+    margin-top: 19px;
+}
+
+.services_content__container {
+    display: flex;
+    margin-top: 55px;
+}
+
+.services_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 549px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #FFFFFF;
+}
+
+.services_content h4 {
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.services_content p {
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 39px;
+}
+
+.services_content button {
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: #F25822;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+    margin-left: 34px;
+}
+
+.services_content_research img {
+    height: 270px;
+}
+
+.shadow {
+    box-shadow: 0 9px 19px 0 rgba(90, 90, 90, 0.5);
+}
+
+/* What-we-do */
+
+.what-we-do {
+    display: flex;
+}
+
+.what-we-do_content_txt_container {
+    margin-top: 107px;
+    width: 570px;
+}
+
+.what-we-do_content_txt_container h3 {
+    font-size: 45px;
+    width: 557px;
+}
+
+.what-we-do_content_txt_container > p {
+    font-size: 16px;
+    width: 557px;
+    color: #666666;
+    font-family: "gilroy-regular";
+    margin-top: 19px;
+}
+
+.what-we-do_content_txt_container img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.wwd_container {
+    display: flex;
+    width: 491px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+.wwd_img {
+    position: relative;
+}
+
+.wwd_img__bckg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    opacity: 0.25;
+}
+
+.wwd_container.globe .wwd_img__bckg {
+    background-color: #F25822;
+}
+
+.wwd_container.email .wwd_img__bckg {
+    background-color: #BDE0BC;
+}
+
+.wwd_container.email {
+    margin-top: 47px;
+    margin-bottom: 47px;
+}
+
+.wwd_container.globe {
+    margin-top: 79px;
+}
+
+.wwd_container.seo .wwd_img__bckg {
+    background-color: #FFC700;
+}
+
+.wwd_container.email.shadow {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 30px;
+    width: 570px;
+}
+
+.wwd_container:not(.email) {
+    margin-left: 30px;
+}
+
+.wwd_txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.what-we-do_content_txt_container h4 {
+    font-size: 20px;
+}
+
+.what-we-do_content_txt_container p {
+    font-size: 15px;
+    margin-top: 8px;
+    font-family: "gilroy-regular";
+}
+
+/* FUNFACT  */
+
+.FUNFACT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.FUNFACT img {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.FUNFACT_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h3 {
+    font-size: 70px;
+    color: #666666;
+}
+
+.text p {
+    font-size: 18px;
+    font-family: "gilroy-sm";
+    color: #666666;
 }
