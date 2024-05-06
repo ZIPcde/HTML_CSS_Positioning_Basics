@@ -427,6 +427,10 @@ height: 919px;
     width: 570px;
 }
 
+.wwd_img-compass {
+    margin-left: -300px;
+}
+
 .what-we-do_content_txt_container h3 {
     font-size: 45px;
     width: 557px;
@@ -533,8 +537,13 @@ height: 919px;
 
 .FUNFACT_container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    border: #EEEEEE 2px solid;
+    width: 1170px;
+    height: 200px;
+    padding-left: 76px;
+    padding-right: 76px;
 }
 
 .text {
@@ -553,4 +562,187 @@ height: 919px;
     font-size: 18px;
     font-family: "gilroy-sm";
     color: #666666;
+}
+
+/* MAIL-BOX */
+
+.mail-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 558px;
+}
+
+.mail-box_form {
+    width: 570px;
+    margin-right: 10px;
+}
+
+.mail-box_form__info h3{
+    font-size: 45px;
+}
+
+.mail-box_form__info p {
+    margin-top: 13px;
+    margin-bottom: 55px;
+    font-family: "gilroy-regular";
+    font-size: 16px;
+    width: 458px;
+}
+
+.mail-box_form__input {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 570px;
+    height: 50px;
+}
+
+.mail-box_form__input input {
+    background-color: #EEEEEE;
+    color: #CCCCCC;
+    font-size: 11px;
+    font-family: "gilroy-medium";
+    width: 160px;
+    height: 50px;
+    margin-left: -5px;
+    padding-left: 20px;
+    border: none;
+}
+
+.mail-box_form__input-url-left {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.mail-box_form__input-mail-right {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left: #CCCCCC solid 2px !important;
+}
+
+.mail-box_form__input button {
+    margin-left: 29px;
+    width: 140px;
+    height: 50px;
+    background-color: #F25822;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+}
+
+.mail-box_img-container {
+    margin-right: -140px;
+}
+
+/* PLANS */
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+.plans_header {
+    width: 211px;
+    height: 95px;
+}
+
+.plans_header h3 {
+    margin-top: 87px;
+    font-size: 45px;
+}
+
+.plans_header p {
+    font-family: "gilroy-regular";
+    font-size: 16px;
+    margin-bottom: 56px;
+}
+
+.plans_cardholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 570px;
+    margin-top: 150px;
+}
+
+.plans_cardholder .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 514px;
+    background-color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 100px;
+}
+
+.plans_cardholder h4 {
+    font-family: "gilroy-medium";
+    font-size: 24px;
+    /* margin-top: 20px; */
+}
+
+.plus_price__holder {
+    display: flex;
+    width: 155px;
+    height: 105px;
+    align-items: flex-start;
+}
+
+.plans_span1 {
+    font-family: "gilroy-medium";
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.plans_span2 {
+    font-family: "gilroy-medium";
+    font-size: 70px;
+    margin-top: 10px;
+}
+
+.plans_span3 {
+    font-family: "gilroy-medium";
+    font-size: 18px;
+    margin-top: 57px;
+}
+
+.card p {
+    font-family: "gilroy-medium";
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.card  button {
+    width: 200px;
+    height: 50px;
+    background-color: rgba(242, 88, 34, 0.25);
+
+    color: #F25822;
+    border: none;
+    border-radius: 25px;
+}
+
+.card:hover button {
+    background-color: rgba(242, 88, 34, 1);
+    color: #FFFFFF;
+}
+
+.card:hover h4 {
+    color: #F25822;
+}
+
+.card:hover {
+    height: 570px;
+    box-shadow: 0 0 10px rgba(15, 5, 5, 0.3);
 }
