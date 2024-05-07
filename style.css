@@ -262,6 +262,7 @@
 
 .feautures_container {
     display: flex;
+    justify-content: center;
 }
 
 .feautures_info__content {
@@ -435,6 +436,7 @@ height: 919px;
 
 .what-we-do {
     display: flex;
+    justify-content: center;
 }
 
 .what-we-do_content_txt_container {
