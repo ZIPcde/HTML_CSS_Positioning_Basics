@@ -982,7 +982,7 @@ height: 919px;
     align-items: center;
     width: 100%;
     margin-top: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .news_header {
@@ -1010,12 +1010,14 @@ height: 919px;
 .news_slider-container {
     margin-left: 20px;
     position: relative;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 90%;
     height: 400px;
     overflow: hidden;
     margin-top: 30px;
   }
-  
+
   .news_slider {
     display: flex;
     justify-content: center;
@@ -1023,6 +1025,10 @@ height: 919px;
   
   .news_slide {
     display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    height: 330px;
   }
   
   .news_pagination {
@@ -1044,6 +1050,10 @@ height: 919px;
     border-radius: 50%;
   }
   
+  .news_slide:hover {
+    box-shadow: 0 0 10px rgba(15, 5, 5, 0.3);
+}
+
   .news_pagination button.active {
     background-color: #F25822;
     width: 12px;
@@ -1112,15 +1122,30 @@ height: 919px;
     margin-left: 8px;
   }
 
+  .news_slide:not(:hover) {
+    opacity: 0.5;
+  }
+
+
   /* footer */
 
   .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin-top: 10px;
     background-color: #F3F3F3;
+    padding-top: 100px;
+}
+
+.footer_section {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    margin-top: 10px;
 }
 
 .footer_logo {
@@ -1128,9 +1153,37 @@ height: 919px;
     height: 248px;
 }
 
+.footer_logo__img {
+    margin-top: -15px;
+}
+
+.footer_logo__holder {
+    margin-bottom: 30px;
+}
+
+.footer h5 {
+    font-size: 24px;
+}
+
+.footer p {
+    color: #666666;
+}
+
+.footer_logo__text{
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    margin-left: 20px;
+    color: #666666;
+}
+
 .company {
     width: 156px;
     height: 257px;
+    margin-left: 29px;
+    margin-right: 144px;
+    margin-top: -10px;
 }
 
 .footer_navigation {
@@ -1146,4 +1199,18 @@ height: 919px;
 .footer_contacts {
     width: 193px;
     height: 204px;
+    margin-left: 147px;
+}
+
+.footer_all-rights {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 60px; */
+    margin-bottom: 20px;
+}
+
+.footer_all-rights p {
+    text-align: center;
+    font-size: 16px;
+    color: #888888;
 }
