@@ -8,7 +8,7 @@
 </head>
 <body>
     <main class="main">
-        <div class="landing">
+        <section class="landing">
             <header class="landing_header">
                 <div class="header_logo">
                     <img src="./img/header_logo.png" alt="logo">
@@ -51,7 +51,7 @@
                     <img src="./img/landing.png" alt="img">
                 </div>
             </div>
-        </div>
+        </section>
         <aside class="landing_top__logos">
             <div class="landing_top__logos-holder">
                 <img src="img/liva.svg" alt="logos-Liva"></img>
@@ -62,7 +62,7 @@
                 <img src="img/kanba.svg" alt="logos-kanba"></img>
             </div>
         </aside>
-        <div class="about">
+        <section class="about">
             <!-- <div class="about_background">
                 <img class="about_line1" src="./img/Vector1.svg" alt="line1"><img class="about_line2" src="./img/Vector2.svg" alt="line2"><img src="./img/Background.svg" alt="background">
             </div> -->
@@ -80,8 +80,8 @@
             <div class="about_charts">
                 <img src="img/about.svg" alt="charts">
             </div>
-        </div>
-        <div class="feautures">
+        </section>
+        <section class="feautures">
             <div class="feautures_container">
                 <div class="feautures_info__content">
                     <div class="feautures_img__holder">
@@ -93,7 +93,7 @@
                     <p class="feautures_info__content-p">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
                     <a class="feautures_info__content-a" href="#">Read More...</a>
                 </div>
-                <div class="feautures_info__content shadow">
+                <div class="feautures_info__content">
                     <div class="feautures_img__holder">
                     <div class="img2_container feautures_img__container">
                     </div>
@@ -116,7 +116,7 @@
                 </div>
             </div>
         </div>
-        <div class="services">
+        <section class="services">
             <div class="services_container">
                 <div class="services_header">
                     <h3>Why You Should Choose Us.</h3>
@@ -133,7 +133,7 @@
                             </svg>
                             </button>
                     </div>
-                    <div class="services_content services_content_seo shadow">
+                    <div class="services_content services_content_seo">
                         <img src="img/services_content_seo.svg" alt="services_img">
                         <h4>Seo Optimazadion</h4>
                         <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
@@ -153,8 +153,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="what-we-do">
+        </section>
+        <section class="what-we-do">
             <div class="what-we-do_content_img-container">
                 <img class="wwd_img-compass" src="img/what-we-do_img.svg" alt="what-we-do_img">
             </div>
@@ -173,7 +173,7 @@
 for chang the Seamlessly underwhelm dures.</p>
                     </div>
                 </div>
-                <div class="wwd_container email shadow">
+                <div class="wwd_container email">
                     <div class="wwd_img">
                         <div class="wwd_img__bckg"></div>
                         <img src="img/what-we-do_img__email.svg" alt="pict">
@@ -196,8 +196,8 @@ for chang the Seamlessly underwhelm dures.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="FUNFACT">
+        </section>
+        <section class="FUNFACT">
             <div class="FUNFACT_container">
                 <div class="text">
                     <h3>95</h3>
@@ -219,8 +219,8 @@ for chang the Seamlessly underwhelm dures.</p>
                     <p>National Awards</p>
                 </div>
             </div>
-        </div>
-        <div class="mail-box">
+        </section>
+        <section class="mail-box">
             <div class="mail-box_form">
                 <div class="mail-box_form__info">
                     <h3>Check Your Website Speed </h3>
@@ -238,8 +238,8 @@ for chang the Seamlessly underwhelm dures.</p>
             <div class="mail-box_img-container">
                 <img src="img/mail-box_illustration.svg" alt="">
             </div>
-        </div>
-        <div class="plans">
+        </section>
+        <section class="plans">
             <div class="plans_header">
                 <h3>Our Plans</h3>
                 <p>Choose the right SEO for you</p>
@@ -281,8 +281,8 @@ for chang the Seamlessly underwhelm dures.</p>
                     <button>Get Started</button>
                 </div>
             </div>
-        </div>
-        <div class="team">
+        </section>
+        <section class="team">
             <div class="team_header">
                 <h3>Our Expert Team Members</h3>
                 <p>This new-found knowledge may then be used by engineers to
@@ -406,8 +406,8 @@ for chang the Seamlessly underwhelm dures.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="revievers">
+        </section>
+        <section class="revievers">
             <div class="revievers_header">
                 <h3>Our Clients Say</h3>
                 <p>Our in-house search engine experts deliver profitable Google, Bing, Yahoo Ranking.</p>
@@ -453,8 +453,8 @@ for chang the Seamlessly underwhelm dures.</p>
                 </div>
                 <div class="pagination"></div>
               </div>
-        </div>        
-        <div class="news">
+        </section>        
+        <section class="news">
             <div class="news_header">
                 <h3>Our Latest News</h3>
                 <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
@@ -538,10 +538,7 @@ for chang the Seamlessly underwhelm dures.</p>
                 </div>
                 <div class="news_pagination"></div>
               </div>
-
-        </div>
-        
-
+        </section>
     </main>
     <footer class="footer">
         <div class="footer_section">
@@ -668,7 +665,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const newsSlides = document.querySelectorAll(".news_slide");
   const newsPagination = document.querySelector(".news_pagination");
   const newsSlideWidth = newsSlides[0].offsetWidth;
-  let currentNewsIndex = 1; // Выбираем второй элемент по умолчанию
+  let currentNewsIndex = 1;
 
   newsSlides.forEach((slide, index) => {
     const dot = document.createElement("button");
@@ -720,7 +717,6 @@ document.addEventListener("DOMContentLoaded", function() {
     updateNewsSliderPosition();
   });
 
-  // Инициализация слайдера новостей
   updateNewsSliderPosition();
 });
 

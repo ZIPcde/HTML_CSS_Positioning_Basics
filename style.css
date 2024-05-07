@@ -274,6 +274,10 @@
     
 }
 
+.feautures_info__content:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
 .feautures_info__content.shadow {
     margin-left: 60px;
     margin-right: 60px;
@@ -388,6 +392,11 @@ height: 919px;
     margin-left: 15px;
     margin-right: 15px;
     background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.services_content:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
 }
 
 .services_content h4 {
@@ -398,6 +407,8 @@ height: 919px;
 .services_content p {
     text-align: center;
     margin-top: 22px;
+    font-size: 15px;
+    color:#AAAAAA;
     margin-bottom: 39px;
 }
 
@@ -489,23 +500,31 @@ height: 919px;
 }
 
 .wwd_container.globe {
-    margin-top: 79px;
+    margin-top: 59px;
 }
 
 .wwd_container.seo .wwd_img__bckg {
     background-color: #FFC700;
 }
 
-.wwd_container.email.shadow {
+/* .wwd_container.email.shadow {
     padding-top: 17px;
     padding-bottom: 17px;
     padding-left: 30px;
     width: 570px;
-}
+} */
 
-.wwd_container:not(.email) {
+.wwd_container {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 30px;
     margin-left: 30px;
 }
+
+.wwd_container:hover {
+    box-shadow: 0 9px 19px 0 rgba(90, 90, 90, 0.5);
+}
+
 
 .wwd_txt {
     display: flex;
@@ -935,6 +954,7 @@ height: 919px;
   }
   
   .slider {
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     transition: transform 0.5s ease;
@@ -1154,11 +1174,17 @@ height: 919px;
 }
 
 .footer_logo__img {
-    margin-top: -15px;
+    margin-top: -2px;
+    margin-right: 14px;
 }
 
 .footer_logo__holder {
+    margin-top: -8px;
     margin-bottom: 30px;
+}
+
+.grow_be1 {
+    color: black;
 }
 
 .footer h5 {
@@ -1199,17 +1225,22 @@ height: 919px;
 .footer_contacts {
     width: 193px;
     height: 204px;
+    margin-top: 1px;
     margin-left: 147px;
 }
 
 .footer_all-rights {
     display: flex;
     justify-content: center;
+    border-top: #CCCCCC 2px solid;
+    padding: 19px;
+    width: 1100px;
     /* margin-top: 60px; */
     margin-bottom: 20px;
 }
 
 .footer_all-rights p {
+
     text-align: center;
     font-size: 16px;
     color: #888888;
